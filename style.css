@@ -2,16 +2,21 @@
 
 body {
     font-family: Source Sans Pro;
-    background: #eee;
+    background: lightgray;
 }
 
 header {
     font-family: Abril Fatface;
 }
 
-h2 {
+h2 h5 {
     font-family: Roboto Slab;
 }
+p {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
 .newspaper-container {
     border: 10px solid black;
     border-radius: 3%;
@@ -58,7 +63,8 @@ nav a:hover {
   color: deepskyblue;
 }
 
-img {
+.main-article img {
     width: 700px;
     object-fit:fill;
 }
+
