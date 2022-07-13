@@ -32,14 +32,19 @@ h1 {
     font-family: Abril Fatface;
     font-size: 300%;
    }
-nav {
-  
-  padding: 5px;
+nav {  
+  padding: 0px;
+  position: sticky;
+  top: 135px;  
+  background-color: white;
+
 }
 
 nav ul {
   list-style-type: none;
   text-align: center;
+  padding: 0px;
+  height: auto;
 }
 
 nav li {
@@ -47,8 +52,9 @@ nav li {
   text-align:justify;
   text-size-adjust: auto;
   font-size: 65%;
-  margin:auto;
-  padding: 1em;
+  margin:1px;
+  padding:10px;
+  height: 5px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
